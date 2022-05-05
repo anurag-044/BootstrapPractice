@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+    <title>Bootstrap Practice!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-12">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Fifth navbar example">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarsExample05">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <i class="bi bi-distribute-vertical"></i>
+                            </ul>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown05"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Special Dishes</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">Resto</a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarsExample05" aria-controls="navbarsExample05"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Reservation</a>
+                                </li>
+                            </ul>
+                            <ul class="input-group-btn">
+                                <button class="btn btn-outline-secondary" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly pt-3 pb-5 pr-5">
+
+            <div class="col-md-4 my-auto">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h2 class="display-5"><strong class="d-inline-block mb-2">We Love <br> Delicious Foods!</strong>
+                        </h2>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-danger btn_1">Explore Menu</button>
+                        </div>
+                        <div class="col-6">
+                            <i class="bi bi-film"></i>
+                            <span>Play Video</span>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-4 justify-content-center">
+                        <div class="col-4 align-items-center">
+                            <i class="fa-solid fa-rocket icon"></i>
+
+                            <p>Fast Delivery</p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <i class="fa-solid fa-leaf icon"></i>
+                            <p>Fresh Food</p>
+                        </div>
+                        <div class="col-4">
+                            <i class="fa-solid fa-comment icon"></i>
+                            <p>24/7 Support</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-5 pt-3">
+                <img src="images/welove.jpg" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center pt-3 pb-5">
+            <div class="col-md-5 pt-3">
+                <img src="images/welcome.jpg" class="img-fluid " height="10%" width="100%" alt="">
+            </div>
+
+            <div class="col-md-5 my-auto">
+
+
+                <div class="row">
+                    <div class="col-lg-10 mx-auto pt-4">
+                        <h2>Welcome to Resto</h1>
+                            <p class="lead text-muted">Something short and leading about the collection below—its
+                                contents, the creator, etc. Make it short and sweet, but not too short so folks don’t
+                                simply skip over it entirely Something short and leading about the collection below—its
+                                contents, the creator, etc. Make it short and sweet, but not too short so folks don’t
+                                simply skip over it entirely.</p>
+
+                    </div>
+                </div>
+
+
+                <div class="album py-5 px-auto">
+                    <div class="container">
+                        <h3>Special Recipe</h3>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="images/australian.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <p>Australian Organic <br> Beef
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="images/australian.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <p>Australian Organic <br> Beef
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="images/australian.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <p>Australian Organic <br> Beef
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid border bg-light" style="width: 82%; margin-top: 40px;padding-top: 60px;">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center" style="line-height: 10px; margin-bottom: 20px;">
+                    <p style="color: red;">Specular</p>
+                    <h3>Special Dishes</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+
+                            <div class="row">
+                                <div class="col-3">
+                                    <h1><b>01.</b></h1>
+                                </div>
+                                <div class="col-7">
+                                    <hr>
+                                </div>
+                            </div>
+                            <h3 class="mb-0  ps-5" style="color: red;">Beef </h3>
+                            <h3 class=" ps-5">Steak Sauce</h3>
+                            <div class="mb-4 px-5 mt-4 ">
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid illo corrupti
+                                    esse similique repudiandae consectetur eum tempore, doloribus in adipisci sequi
+                                    facilis soluta?.</p>
+                                <h1 class="card-title pricing-card-title">$29.00</h1>
+                                <button type="button" class="w-50 btn btn-danger mt-4 mb-2">Book a Table</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-5 my-md-auto">
+                            <img src="images/beef.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                        <div class="col-md-5 my-md-auto">
+                            <img src="images/salmon.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static ps-4">
+
+                            <div class="row">
+                                <div class="col-3">
+                                    <h1><b>02.</b></h1>
+                                </div>
+                                <div class="col-7">
+                                    <hr>
+                                </div>
+                            </div>
+                            <h3 class="mb-0  ps-5" style="color: red;">Beef </h3>
+                            <h3 class=" ps-5">Steak Sauce</h3>
+                            <div class="mb-4 ps-5 mt-4">
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid illo corrupti
+                                    esse similique repudiandae consectetur eum tempore, doloribus in adipisci sequi
+                                    facilis soluta?.</p>
+                                <h1 class="card-title pricing-card-title">$29.00</h1>
+                                <button type="button" class="w-50 btn btn-danger mt-4 mb-2 btn_1">Book a Table</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center d-flex flex-column mt-5">
+            <div class="col-10 text-center" style="line-height: 10px; margin-bottom: 20px;">
+                <p style="color: red;">Specialities</p>
+                <h3>Our Menu</h3>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-lg-4 px-2">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Some representative placeholder content for the three columns of text below the
+                                    carousel. This is the first column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Some representative placeholder content for the three columns of text below the
+                                    carousel. This is the first column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Some representative placeholder content for the three columns of text below the
+                                    carousel. This is the first column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Some representative placeholder content for the three columns of text below the
+                                    carousel. This is the first column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Another exciting bit of representative placeholder content. This time, we've moved on
+                                    to the second column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>And lastly this, the third column of representative placeholder content.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Some representative placeholder content for the three columns of text below the
+                                    carousel. This is the first column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>Another exciting bit of representative placeholder content. This time, we've moved on
+                                    to the second column.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img src="images/eggsandwich.jpg" alt="" class="bd-placeholder-img rounded-circle"
+                                    width="70" height="70">
+
+                                <h2>Heading</h2>
+                                <p>And lastly this, the third column of representative placeholder content.</p>
+                                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row car">
+            <div class="col-12">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 600px;">
+                            <img src="images/happy.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Happy Customer</h5>
+                                <p style="font-size: 80px;">"</p>
+                                <p>Some representative placeholder content for the first slideSome representative
+                                    placeholder content for the first slideSome representative placeholder content for
+                                    the first slide .</p>
+                                <p>Mary Jane</p>
+                                <p>CTO of Unidencity inc</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 600px;">
+                            <img src="images/happy.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Happy Customer</h5>
+                                <p style="font-size: 80px;">"</p>
+                                <p>Some representative placeholder content for the second slide Some representative
+                                    placeholder content for the first slideSome representative placeholder content for
+                                    the first slide.</p>
+                                <p>Mary Jane</p>
+                                <p>CTO of Unidencity inc</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+
+            <div class="col-10 text-center" style="line-height: 10px; margin-bottom: 20px;">
+                <p style="color: red;">Specialities</p>
+                <h3>Our Team</h3>
+            </div>
+
+            <div class="row g-3 justify-content-center">
+                <div class="col-3">
+                    <div class="card shadow-sm">
+                        <img src="images/ceo.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shadow-sm">
+                        <img src="images/aaron.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shadow-sm">
+                        <img src="images/jon.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
